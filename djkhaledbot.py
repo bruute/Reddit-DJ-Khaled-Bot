@@ -2,7 +2,7 @@ import praw
 
 r = praw.Reddit(user_agent = "DJ Khaled Bot by bruute")
 print("Logging in.. Bless UP!")
-r.login("Username", "Password"}
+r.login()
 
 words_to_match = ['smart']
 cache = []
